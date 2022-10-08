@@ -13,11 +13,24 @@
   max-width: 72rem /* 1152px */;
   padding-left: 1rem /* 16px */;
   padding-right: 1rem /* 16px */;
+  z-index: 5;
+}
+
+.cardLayout {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.card {
+  justify-content: center;
 }
 
 .heroImage {
   position: absolute;
   top: 0px;
+
   z-index: 1;
   right: 10%;
 }
@@ -39,6 +52,7 @@
   padding-bottom: 2rem;
   margin-top: 2rem;
   color: var(--text-white-100);
+  z-index: 3;
 }
 
 .sectionWrapper {
