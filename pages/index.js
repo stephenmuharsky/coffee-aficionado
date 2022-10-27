@@ -29,8 +29,6 @@ export default function Home(props) {
 
   const { coffeeStores, latLong } = state;
 
-  console.log({ latLong, locationErrorMsg });
-
   useEffect(() => {
     const fetchData = async () => {
       if (latLong) {
@@ -59,12 +57,9 @@ export default function Home(props) {
     fetchData();
   }, [latLong]);
   const handleOnBannerBtnClick = () => {
-    console.log("Hi from banner");
     handleTrackLocation();
-    //
   };
-  //console.log("text:", process.env.NEXT_PUBLIC_FOURSQUARE_API_KEY);
-  //console.log("props", props);
+
   return (
     <div className={styles.container}>
       <Head>
