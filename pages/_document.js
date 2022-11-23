@@ -7,19 +7,19 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="preload"
-            href="/fonts/IBMPlexSans-Bold"
+            href="/fonts/IBMPlexSans-Bold.ttf"
             as="font"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/IBMPlexSans-Regular"
+            href="/fonts/IBMPlexSans-Regular.ttf"
             as="font"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/IBMPlexSans-SemiBold"
+            href="/fonts/IBMPlexSans-SemiBold.ttf"
             as="font"
             crossOrigin="anonymous"
           />
